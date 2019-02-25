@@ -3,7 +3,7 @@
 
 def key_for_min_value(name_hash)
   stored_value=Infinity
-  answer="key"
+  answer=nil
   name_hash.collect do |name,value|
    
     if(value<stored_value)
